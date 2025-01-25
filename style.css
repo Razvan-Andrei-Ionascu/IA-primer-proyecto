@@ -1,0 +1,166 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: "DM Sans", serif;
+
+}
+
+body{
+    text-align:center;
+    background-color: #efefef94;
+  }
+
+header{
+    background-color: #364552;
+    color: white;
+    padding: 5rem 0rem;
+    font-size: 150px;
+}
+
+header h1{
+    font-size: 5rem;
+    text-align: center;
+}
+  
+.color{
+    color:rgb(71, 133, 112)
+}
+
+.extension{
+    width: 80%; /* Aumenta el ancho del artículo utilizable */
+    margin: 20px auto; /* Centra y da espacio entre los artículos */
+    padding: 20px; /* Añade espacio interno para que se vean más grandes */
+    border-radius: 8px; /* Bordes redondeados para un diseño más moderno */
+}
+
+section{
+    font-size: 20px;
+}
+
+section article{
+    transition: box-shadow 0.7s ease-out;
+    background-color: #ffe7b0;
+    margin: 1rem 20px 1rem 30px; 
+    border-radius: 0,5px;
+    padding: 0.25rem;
+}
+
+section article:hover{
+    box-shadow: 0 0.2rem 0.5rem rgba(0,0,0,0.3);
+}
+
+section article h2, section article p{
+    flex: 1;
+}
+
+article img {
+    margin: 20px;
+    max-width: 50%; /* Ajustar el tamaño de las imágenes al contenedor */
+    height: auto; /* Mantener proporciones */
+}
+
+.sidebar {
+    text-align:left;
+    height: 100vh;
+    width: 180px;
+    background-color: #333;
+    color: #fff;
+    padding: 15px 0px 15px 15px;
+    margin: 0rem 0px 0rem -20px;
+    position: fixed;
+    top: 0;
+
+}
+
+.sidebar ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.sidebar ul li {
+    margin: 15px 1rem;
+}
+
+.sidebar ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.sidebar ul li a:hover {
+    color: lightblue;
+}
+
+nav.sidebar ul {
+    list-style: none;
+}
+
+nav.sidebar a {
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+    margin: 5px 0;
+}
+
+nav.sidebar a:hover {
+    background-color: #444;
+}
+
+#sidebar{
+    position: relative;
+}
+
+.container{
+    width: 1500px;
+    margin: 0 auto;
+    padding:20px;
+
+}
+
+.content {
+    margin-left: 20px; 
+    padding: 20px; 
+}
+
+.table-container {
+    margin: 20px auto ; /* separa el borde naranja de top, de bottom y se acerca a la izquierda y a la derecha, por eso el auto, sin eso todo estaria a 20 px de distancia */
+    padding: 10px; /* se puede observar cundo cambias el padding que el otro borde se aleja o se acerca, es meramente opcional */
+    border: 1px solid #ff8400;
+    border-radius: 50px; /*  redondeo del borde, se puede ver que si cambias a por ejemplo 10px o 15px esta tan solo un poco curvado */
+    background-color: #ffe7b0;
+}
+  
+.table {
+    width: 100%; /* para que ocupe todo el espacio, es de utilidad estetica */
+    border-collapse: separate ;  /*es para separar las diferentes celdas, con collapse todo estaria unido*/
+    border-spacing: 8px; /* espacio entre celdas */
+}
+
+.table td, .table th {
+    padding: 10px; /* Relleno interno para celdas */
+    border: 1px solid #8000ff; /* Bordes entre celdas */
+    text-align: left; /* Alineación de texto */
+}
+
+footer {
+    transition: box-shadow 0.3s ease-out;
+    background-color: #ced2ea;
+    padding:2rem 0rem;
+    margin: 1rem 0px 1rem 0px;
+    width:103%;
+      
+}
+
+footer:hover{
+    box-shadow: 0 0.2rem 0.5rem rgba(0,0,0,0.3);
+}
+
+.imagen-aplausos{
+    float:left;
+}
+
