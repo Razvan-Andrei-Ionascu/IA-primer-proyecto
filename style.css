@@ -115,11 +115,6 @@ nav.sidebar a:hover {
     position: relative;
 }
 
-.container {
-    max-width: 1200px; /* Define un ancho máximo */
-    margin: 0 auto; /* Centra el contenedor */
-    padding: 20px; /* Añade espacio interno */
-}
 
 .container{
     width: 1500px;
